@@ -11,6 +11,10 @@
 
 }
 
+.highlights{
+    background-color: yellow;
+}
+
 /* Logo */
 header{
     height: 100px;
@@ -22,4 +26,84 @@ header{
 #logo{
     height: 50px;
     margin-top: 40px;
+}
+
+/* Intestazione */
+h1{
+    font-size: 40px;
+    line-height: normal;
+}
+
+.credits{
+    color: grey;
+    font-size: 16px;
+}
+
+#owner{
+    color: blue;
+}
+
+#date{
+    font-size: 12px;
+    color: grey;
+}
+
+#imgint{
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+#caption{
+    font-size: 12px;
+}
+
+/* Contenuto */
+ul{
+    margin: 30px 15px;
+}
+
+table{
+    text-align: left;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+}
+
+.colorrow{
+    background-color: skyblue;
+}
+
+#texttable{
+    width: 50%;
+}
+
+.content p{
+    margin: 20px 0px;
+}
+
+/* Footer */
+h2{
+    font-size: 15px;
+    color: grey;
+}
+
+.img{
+    width: 200px;
+    height: 160px;
+    padding: 3px 10px;
+    margin: 10px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.img-1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.img-2{
+    background-image: url(../img/graph.jpg);
 }
